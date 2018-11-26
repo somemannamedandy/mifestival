@@ -1,0 +1,149 @@
+.btn-pink{
+    background-color: pink;
+}
+.btn-white{
+    background-color: white;
+}
+#header-bottom{
+    background-image: url("../images/Rectangle 8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-bottom > div > div:nth-child(2) > div > p{
+    font-size: 1rem;
+}
+
+.btn-none{
+    border: none;
+    background: none;
+}
+.placeholderimg{
+    background-image: url("../images/placeholder.png");
+    height: 530px;
+}
+.smalldate{
+    font-size: 0.85rem;
+}
+.divider{
+    width: 10%;
+    height: auto;
+}
+.mylist{
+    list-style:none;
+    line-height: 3;
+
+}
+.car-image{
+    margin-top: 5rem;
+}
+#whitebtn{
+    box-shadow: 0 5px 15px 1px lightgrey;
+}
+.carouseltxt{
+    line-height: 2;
+    font-size: 1rem;
+}
+/*.carouseltxtcol{
+    margin-left: 6rem;
+}*/
+.carousel-item-height{
+    height: 500px;
+}
+#joinus{
+    background-image: url("../images/joinus.png");
+    background-size: cover;
+    height: 1015px;
+}
+#joinus > div > div:nth-child(3) > button{
+    font-size: .87rem;
+    padding: .5rem 2rem 0.5rem 2rem;
+}
+.bg-darkgrey{
+    background-color: #12161b;
+}
+#footer-list{
+    margin-top: 5rem;
+    line-height: 3;
+}
+#footer-list li{
+    list-style: none;
+}
+#footer-list li a{
+    text-decoration:none;
+}
+
+/*----------MEDIA QUERIES----------*/
+
+/*SMALL DEVICES 576px & up*/
+/*@media (min-width: @screen-sm-min) {}*/
+/*MEDIUM DEVICES 768px & up*/
+
+@media (min-width: 992px) {
+    #header-bottom > div > div:nth-child(3) > div > div > p{
+        font-size: 2.5rem;
+    }
+    #header-bottom > div > div:nth-child(1) > div > h2{
+        font-size: 7.5rem;
+    }
+    #header-bottom{
+        height: 1030px;
+    }
+    .days{
+        font-size: 3.75rem
+    }
+    .lineup:hover{
+        box-shadow: 0 0 20px 5px lightgrey ;
+    }
+    .lineup:hover .divider{
+        visibility: visible;
+    }
+    .divider{
+        visibility: hidden;
+    }
+    body > main > div.row.mt-5.pb-5.bg-light > div > h2{
+        font-size: 4.87rem;
+    }
+    body > main > div.row.bg-primary.pt-5 > div > div > h2{
+        font-size: 4.87rem;
+    }
+    .plan{
+        font-size: 2.5rem;
+    }
+    body > main > div:nth-child(4) > div > div:nth-child(1) > h2{
+        font-size: 4.87rem;
+    }
+    #joinus > div > div:nth-child(1) > h2{
+        font-size: 7.5rem;
+        margin-top: 15rem
+    }
+    body > footer > div > div > div > div.col-md-2 > div > h2{
+        margin-top: 5rem;
+    }
+   #footertext{
+       font-size: .87rem;
+   }
+   .bg-black{
+       background: #0b0d10;
+   }
+   .txt-de-none{
+       color: currentColor;
+       text-decoration: none;
+       border: none;
+   }
+   .fa-twitter:hover{
+       color: lightskyblue;
+
+   }
+   .fa-instagram:hover{
+       color: sandybrown;
+
+   }
+   .fa-youtube:hover{
+       color: red;
+
+   }
+}
+/*LARGE DEVICES  992px & up*/
+/*@media (min-width: @screen-lg-min) {}*/
+/*EXTRA DEVICES LARGE 1200px & up*/
+/*@media (min-width: @screen-xl-min) {}*/
